@@ -1,0 +1,21 @@
+# WeNext AI Chatbot Requirements
+
+# Core dependencies
+python-dotenv==1.0.0       # Load API keys from .env file
+streamlit==1.29.0
+sentence-transformers==2.2.2
+chromadb==0.4.18
+requests==2.31.0
+ 
+# Document readers
+PyPDF2==3.0.1          # For PDF files
+python-docx==1.1.0     # For Word documents
+pandas==2.1.4          # For Excel/CSV files
+openpyxl==3.1.2        # For Excel files (.xlsx)
+streamlit-mic-recorder==0.0.4
+langdetect==1.0.9
+# Optional (for HTML files)
+beautifulsoup4==4.12.2
+lxml==4.9.3
+ 
+# Groq API (included in requests)
